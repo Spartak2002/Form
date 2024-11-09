@@ -1,0 +1,158 @@
+{
+  "tests": [
+    {
+      "id": "1",
+      "title": "JavaScript Basics",
+      "description": "Test your basic knowledge of JavaScript.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the output of '2' + 2 in JavaScript?",
+          "answers": [
+            {
+              "text": "4",
+              "isCorrect": false
+            },
+            {
+              "text": "22",
+              "isCorrect": true
+            },
+            {
+              "text": "Error",
+              "isCorrect": false
+            },
+            {
+              "text": "NaN",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Which type does JavaScript use for boolean values?",
+          "answers": [
+            {
+              "text": "integer",
+              "isCorrect": false
+            },
+            {
+              "text": "string",
+              "isCorrect": false
+            },
+            {
+              "text": "boolean",
+              "isCorrect": true
+            },
+            {
+              "text": "array",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Advanced JavaScript",
+      "description": "Advanced questions on JavaScript for experienced developers.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a closure in JavaScript?",
+          "answers": [
+            {
+              "text": "A type of loop",
+              "isCorrect": false
+            },
+            {
+              "text": "A function inside another function that has access to the outer function’s variables",
+              "isCorrect": true
+            },
+            {
+              "text": "A special kind of array",
+              "isCorrect": false
+            },
+            {
+              "text": "A method to sort an array",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What does the 'this' keyword refer to?",
+          "answers": [
+            {
+              "text": "The global object",
+              "isCorrect": false
+            },
+            {
+              "text": "The current execution context",
+              "isCorrect": true
+            },
+            {
+              "text": "A new instance",
+              "isCorrect": false
+            },
+            {
+              "text": "None of the above",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "JavaScript DOM Manipulation",
+      "description": "Questions about manipulating the DOM in JavaScript.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does document.querySelector do?",
+          "answers": [
+            {
+              "text": "Selects a single element by its ID",
+              "isCorrect": false
+            },
+            {
+              "text": "Selects the first element that matches a CSS selector",
+              "isCorrect": true
+            },
+            {
+              "text": "Selects all elements with a certain class",
+              "isCorrect": false
+            },
+            {
+              "text": "None of the above",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "How do you create a new element in the DOM?",
+          "answers": [
+            {
+              "text": "document.createElement('tag')",
+              "isCorrect": true
+            },
+            {
+              "text": "document.newElement('tag')",
+              "isCorrect": false
+            },
+            {
+              "text": "document.appendChild('tag')",
+              "isCorrect": false
+            },
+            {
+              "text": "element.create('tag')",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "results": []
+}
