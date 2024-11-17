@@ -1,9 +1,12 @@
-import "./App.css"
-import { HomePage } from "./features/pages/home"
+import { ToastContainer } from "react-toastify"
+import RootRouter from "./router"
+import "react-toastify/dist/ReactToastify.css"
+
 const App = () => {
   return (
     <div className="App">
-      <HomePage/>
+      <ToastContainer autoClose={5000} />
+      <RootRouter />
     </div>
   )
 }
